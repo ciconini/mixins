@@ -1,0 +1,15 @@
+@mixin pseudo($content, $display, $position) {
+    content: $content;
+    display: $display;
+    position: $position;
+}
+
+// 
+// Usage:
+// div {
+//     &:before {
+//         @include pseudo("", block, absolute);
+//         ...
+//     }
+// }
+// 
